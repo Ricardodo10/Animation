@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+
+
+
+ul {
+    position: absolute;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+ul li{
+
+    list-style-type: none;
+    margin: 0 5px;
+}
+
+ul li a i{
+    font-size: 37px;
+    color: #262626;
+    line-height: 80px;
+    transition: 0.5s;
+    padding-right: 50px
+}
+
+ul li a span{
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    transition: 0.5s;
+
+
+}
+
+
+ul li a{
+
+    display:block;
+    padding-left: 20px;
+    text-decoration: none;
+    transition:.5s;
+    width:210px;
+    display:absolute;
+    text-align:left;
+    box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+    transform: rotate(-30deg) skew(25deg) translate(0,0);
+    height:80px;
+    background: #fff;
+}
+
+ul li a span{
+    transition: 0.5s;
+    padding: 0;
+    margin: 0;
+    top: 30px;
+    color: #262626;
+    letter-spacing: 4px;
+    position: absolute;
+}
+
+  ul li a:after {
+    transform: .5s;
+    content: '';
+    position: absolute;
+    bottom:-20px;
+    height:20px;
+    width:100%;
+    background: #b1b1b1;
+    left:-10px;
+    transform: rotate(0deg) skewX(-45deg);
+  }
+
+
